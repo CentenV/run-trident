@@ -6,3 +6,4 @@
 !.gitignore
 !*.go
 !*/
+!Makefile
