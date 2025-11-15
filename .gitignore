@@ -1,0 +1,8 @@
+# Inclusion only
+*
+.DS_Store
+
+# Whitelist
+!.gitignore
+!*.go
+!*/
