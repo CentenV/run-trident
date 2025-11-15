@@ -7,3 +7,4 @@
 !*.go
 !*/
 !Makefile
+!compose.yaml
