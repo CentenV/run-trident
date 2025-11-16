@@ -1,0 +1,11 @@
+# Inclusion only
+*
+.DS_Store
+
+# Whitelist
+!.gitignore
+!.gitkeep
+!*.go
+!*/
+!Makefile
+!compose.yaml
