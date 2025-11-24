@@ -1,10 +1,13 @@
 package main
 
 import (
-	"log/slog"
-	"./internal/logger"
+	"github.com/centenv/run-trident/internal/logger"
 )
 
+
 func main() {
-	slog.Info("hello world from trident-agent")
+	var log = logger.GetInstance()
+	
+	log.Error("hello world")
+	log.Info("hello world")
 }
