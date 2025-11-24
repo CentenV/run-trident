@@ -6,6 +6,7 @@
 !.gitignore
 !.gitkeep
 !*.go
+!go.sum
 !*/
 !Makefile
 !compose.yaml
